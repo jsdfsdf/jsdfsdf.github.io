@@ -1,0 +1,21 @@
+{
+  "name": "voodoo_frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@maticnetwork/maticjs": "^3.2.3",
+    "@metamask/detect-provider": "^1.2.0",
+    "electron": "^18.1.0",
+    "ipfs-http-client": "^56.0.3",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "push-dir": "^0.4.1",
+    "vite": "^2.8.4"
+  }
+}
