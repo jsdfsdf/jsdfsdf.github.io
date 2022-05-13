@@ -231,6 +231,14 @@ const sortedHated = computed(() => {
   <!-- <button>count is: {{ count }}</button> -->
   <!-- <button @click="getBlockNum">getBlockNum {{blockN}}</button> -->
   <!-- <h1>has meta : {{ hasMeta }}</h1> -->
+  <div>
+    <a href="https://jie-yu.gitbook.io/voodoo-coin-white-paper/"> 
+       white book</a> 
+  </div>
+  <div>
+    <a href="https://github.com/jsdfsdf/jsdfsdf.github.io"> 
+       github</a> 
+   </div>
   <div class=wallet >  
     <div v-if="!states.isLogged">
       <button v-if="states.hasMeta" @click="connectMetamask">connect wallet now </button>
